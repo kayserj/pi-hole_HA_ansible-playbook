@@ -1,0 +1,37 @@
+global_defs {
+router_id dns2
+script_user root
+enable_script_security
+}
+ 
+vrrp_script chk_ftl {
+script "/etc/scripts/chk_ftl"
+interval 1
+weight -10
+}
+ 
+vrrp_instance PIHOLE {
+state BACKUP
+interface {{ pihole_intf }}
+virtual_router_id 55
+priority 145
+advert_int 1
+unicast_src_ip {{ dns2_ip | regex_replace("\/\d{1,2}") }}
+unicast_peer {
+{{ dns1_ip | regex_replace("\/\d{1,2}") }}
+}
+ 
+authentication {
+auth_type PASS
+auth_pass {{ vrrp_auth }}
+}
+ 
+virtual_ipaddress {
+{{ dns_vip }}
+}
+ 
+track_script {
+chk_ftl
+}
+ 
+}
