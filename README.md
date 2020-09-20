@@ -118,17 +118,17 @@ The script will look at the remote server’s hostname and try to match it with 
 ...or you can just leave it dns1 and dns2  
 
 `  vars:  
-    pass_hash: ''                               # Add your password hash for webgui logon, or leave blank to change in the webgui later.
-    vrrp_auth: 'dayman-fighter-of-the-nightman' # password for HA vrrp auth between servers. please change.
-    pihole_intf: 'eth0'                         # ethernet nic of the pi, change if necessary
-    dns1_ip: '192.168.1.51/24'                  # The ip of the first dns server
-    dns1_name: 'dns1'                           # The name of the first dns server
-    dns2_ip: '192.168.1.52/24'                  # The ip of the second dns server
-    dns2_name: 'dns2'                           # The name of the second dns server 
-    dns_vip: '192.168.1.53/24'                  # The shared ip address to hand out to clients
-    dns_vip_name: 'dns'                         # The name of the shared ip
-    pub_dns1_ip: '8.8.8.8'                      # Upstream public dns server 1
-    pub_dns2_ip: '1.1.1.1'                      # Upstream public dns server 2
+    pass_hash: ''                               # Add your password hash for webgui logon, or leave blank to change in the webgui later.  
+    vrrp_auth: 'dayman-fighter-of-the-nightman' # password for HA vrrp auth between servers. please change.  
+    pihole_intf: 'eth0'                         # ethernet nic of the pi, change if necessary.  
+    dns1_ip: '192.168.1.51/24'                  # The ip of the first dns server.  
+    dns1_name: 'dns1'                           # The name of the first dns server.  
+    dns2_ip: '192.168.1.52/24'                  # The ip of the second dns server.  
+    dns2_name: 'dns2'                           # The name of the second dns server.  
+    dns_vip: '192.168.1.53/24'                  # The shared ip address to hand out to clients.  
+    dns_vip_name: 'dns'                         # The name of the shared ip.  
+    pub_dns1_ip: '8.8.8.8'                      # Upstream public dns server 1.  
+    pub_dns2_ip: '1.1.1.1'                      # Upstream public dns server 2.  
 `  
 
 Then save the file.   
