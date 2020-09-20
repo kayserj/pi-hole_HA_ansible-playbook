@@ -38,7 +38,7 @@ a network that has DHCP services
 
 
 ## What You Don't Get
-Synchronization of files between the 2 dns servers. I had no need for it since I don’t have any custom block lists.  I also use ansible to make sure the hosts file that never changes much, is the same between the 2 devices from the start.  If you needed to make updates to your hosts file.  You can edit in this playbook and re-run it. The script will detect the hosts file update and push only that.  
+Synchronization of files between the 2 dns servers. I had no need for it since I don’t have any custom block lists.  I also use ansible to make sure the hosts file that never changes much, is the same between the 2 devices from the start.  If you needed to make updates to your hosts file, you can edit it in this playbook and re-run it. The script will detect the hosts file update and push only that.  
 Support.  If you're attempting to implement this on your home network, you've already moved well past your support stage in life.  You are support  
 
 ## What You Need to Do  
