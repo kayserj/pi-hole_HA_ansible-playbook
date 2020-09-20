@@ -60,7 +60,7 @@ raspberry pi website for instructions on downloading the OS and imaging your SD 
 change timezone  
 change keyboard layout if needed  
 enable ssh server  
-change hostname to dns1 or dns2 depending on which device you're configuring. The script will fail if the hostnames are not dns1 or dns2  
+change hostname to `dns1` or `dns2` depending on which device you're configuring. The script will fail if the hostnames are not `dns1` or `dns2`  
 Want a different hostname? (see the important note in the Editing Variables section)  
 
 
