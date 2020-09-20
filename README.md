@@ -1,6 +1,8 @@
 
 # HA Pi-Hole DNS Ad Filter Ansible Playbook  
 
+![Image of RaspberryPi](https://github.com/kayserj/project-images/blob/master/ha_pi-hole.jpeg)
+
 This playbook is a collection of tasks that will download, install, and configure the software necessary to run the
 popular pi-hole ad filter on 2 raspberry pi's in a highly available redundant configuration.  Keepalived uses vrrp to allow
 the 2 pi servers to share an ip address for backup redundancy purposes.  
