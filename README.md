@@ -37,7 +37,7 @@ monitor
 keyboard  
 ethernet cables  
 a network that has DHCP services  
-
+the files in this project  
 
 ## What You Don't Get
 Synchronization of files between the 2 dns servers. I had no need for it since I don’t have any custom block lists.  I also use ansible to make sure the hosts file that never changes much, is the same between the 2 devices from the start.  If you needed to make updates to your hosts file, you can edit it in this playbook and re-run it. The script will detect the hosts file update and push only that.  
