@@ -181,5 +181,9 @@ the new dns servers, you can resolve the hostnames `dns1`,`dns2`, and `dns` to t
 
 * **James Kayser** - *Initial work* - [kayserj](https://github.com/kayserj)
 
+### Special Thanks
+Sites and projectes referenced for this project.  
+
+https://haefelfinger.ch/posts/2020/2020-003-19-install-pi-hole-ha-setup/  
 
 
