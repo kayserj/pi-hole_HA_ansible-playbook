@@ -1,3 +1,3 @@
 [dns_grp]
-x.x.x.x ansible_connection=ssh ansible_user=bob ansible_python_interpreter=/usr/bin/python3
-y.y.y.y  ansible_connection=ssh ansible_user=bob ansible_python_interpreter=/usr/bin/python3
+x.x.x.x ansible_connection=ssh ansible_user=YOUR_USER ansible_python_interpreter=/usr/bin/python3
+y.y.y.y  ansible_connection=ssh ansible_user=YOUR_USER ansible_python_interpreter=/usr/bin/python3
