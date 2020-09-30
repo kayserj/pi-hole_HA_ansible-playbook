@@ -1,9 +1,9 @@
 
 127.0.0.1	localhost
 
-{{ dns1_ip | regex_replace("\/\d{1,2}" }} {{ dns1_name }}
-{{ dns2_ip | regex_replace("\/\d{1,2}" }} {{ dns2_name }}
-{{ dns_vip | regex_replace("\/\d{1,2}" }} {{ dns_vip_name }}
+{{ dns1_ip | regex_replace("\/\d{1,2}") }} {{ dns1_name }}
+{{ dns2_ip | regex_replace("\/\d{1,2}") }} {{ dns2_name }}
+{{ dns_vip | regex_replace("\/\d{1,2}") }} {{ dns_vip_name }}
 
 # The following lines are desirable for IPv6 capable hosts
 ::1     localhost ip6-localhost ip6-loopback
