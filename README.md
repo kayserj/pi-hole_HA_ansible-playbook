@@ -1,5 +1,5 @@
 
-# HA Pi-Hole DNS Ad Filter Ansible Playbook  
+# High Availability Pi-Hole DNS Ad Filter Ansible Playbook  
 
 ![Image of RaspberryPi](https://github.com/kayserj/project-images/blob/master/ha_pi-hole.jpeg)
 
