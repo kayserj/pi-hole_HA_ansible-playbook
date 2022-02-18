@@ -73,15 +73,15 @@ Replace YOUR_USER with the username of your preference
 `sudo usermod -a -G adm,dialout,cdrom,sudo,audio,video,plugdev,games,users,input,netdev,gpio,i2c,spi YOUR_USER`  
 
 **Add new user to password-less sudo (append to the bottom of the file)**  
-`sudo visudo`  
-YOUR_USER    ALL=(ALL) NOPASSWD:ALL  
+sudo visudo  
+`YOUR_USER    ALL=(ALL) NOPASSWD:ALL`
 
 **Change ip address of server**  
-`sudo vi /etc/dhcpcd.conf`  
-interface eth0  
+sudo vi /etc/dhcpcd.conf   
+`interface eth0  
   static ip_address=192.168.1.51/24  
   static routers=192.168.1.1  
-  static domain_name_servers=8.8.8.8  
+  static domain_name_servers=8.8.8.8`
 
 Make sure to change the ip for each server  
 
